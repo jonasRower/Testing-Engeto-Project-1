@@ -11,7 +11,7 @@ Funkce hlavního menu, která poskytuje možnosti pro přidání, zobrazení a o
 
 
 ## def pridat_ukol()
-Tato funkce má uživateli umožnit zadat název a popis nového úkolu a uložit jej do seznamu úkolů. Zde platí volba 1 v hlavním menu. Po zadání úkolu program pokračuje dál nabídkou hlavního menu. Při zadání prázdného vstupu do Zadejte název úkolu nebo Popis úkolu, program upozorní uživatele, že zadal prázdný vstup a nechá ho zadat název i popis znovu.
+Tato funkce má uživateli umožnit zadat název a popis nového úkolu a uložit jej do seznamu úkolů. Zde platí volba 1 v hlavním menu. Po zadání úkolu proggit ram pokračuje dál nabídkou hlavního menu. Při zadání prázdného vstupu do Zadejte název úkolu nebo Popis úkolu, program upozorní uživatele, že zadal prázdný vstup a nechá ho zadat název i popis znovu.
 
 ﻿﻿
 ## def zobrazit_ukoly()
