@@ -2,9 +2,7 @@
 <ins> Task manager </ins>
 
 
-Projekt: Task manager
-Zadání č. 1
-Vaším úkolem je doplnit prázdné funkce pro správu úkolů ve správném pořadí. Program by měl umožnit přidávat, zobrazovat a odstraňovat úkoly. Následující části kódu jsou prázdné funkce, které musíte doplnit. Každá funkce má svůj specifický úkol, který je popsán níže. Úkoly budou ukládány do seznamu ukoly = [].
+Program by měl umožnit přidávat, zobrazovat a odstraňovat úkoly. Následující části kódu jsou prázdné funkce, které musíte doplnit. Každá funkce má svůj specifický úkol, který je popsán níže. Úkoly budou ukládány do seznamu ukoly = [].
 
 ﻿
 ## def hlavni_menu()
@@ -24,7 +22,7 @@ Tato funkce má zobrazit všechny úkoly v seznamu. Zde platí volba 2 v hlavní
 Tato funkce má uživateli umožnit zadat číslo úkolu, který chce odstranit, a tento úkol odstranit. Zde platí volba 3 v hlavním menu. Po odstranění úkolu program pokračuje dál nabídkou hlavního menu. Zde je potřeba, aby uživatel viděl všechny uložené úkoly a při výběru neexistujícího úkolu byl upozorněn.
 
 ﻿
-Konec programu
+<ins> Konec programu </ins>
 
 Pokud uživatel zadá volbu 4 v hlavním menu program se ukončí.
 ﻿
