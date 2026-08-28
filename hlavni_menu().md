@@ -1,4 +1,4 @@
-[a_link](hlavni_menu())<br>
+## hlavni_menu()<br>
 Zobrazí možnosti v programu:<br>
 1. Nový úkol<br>
 2. Zobrazit všechny úkoly<br>
