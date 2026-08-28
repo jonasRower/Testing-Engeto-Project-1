@@ -6,4 +6,4 @@ pokud není vstup císlo, pak vypíše:<br>
 Pokud je funkce sice císlo, ale je menší než 1 a vetší než 4, pak vypíše zprávu:<br>
 "Vstup je mimo rozsah 1-4! Zadejte vstup znovu."<br>
 <br>
-Pokud není ani jedna podmínka splnena, pak je funkce ukoncena s návratovou hodnotou císla možnosti, dle nabídky v [hlavni_menu()](https://github.com/jonasRower/Testing-Engeto-Project-1/blob/main/hlavni_menu().md)<br>
+Pokud není ani jedna podmínka splnena, pak je funkce ukoncena s návratovou hodnotou císla možnosti, dle nabídky v [hlavni_menu()](./hlavni_menu().md)<br>
