@@ -7,7 +7,7 @@ Dle zadaného vstupu se volá jedna z následujících metod:<br>
 2: [zobrazit_ukoly(seznamUkolu)](./zobrazit_ukoly(seznamUkolu).md)<br>
 3: seznamUkolu = [odstranit_ukol(seznamUkolu)](./odstranit_ukol(seznamUkolu).md)<br>
 4: vypíše jen "KONEC PROGRAMU"<br>
-<br>
+
 seznam volaných metod:<br>
 hlavniMenu()<br>
 cislo_Ukolu = [vstup_uzivatele_validace()](./vstup_uzivatele_validace().md)<br>
