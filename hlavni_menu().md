@@ -7,6 +7,7 @@ Zobrazí možnosti v programu:<br>
 <br>
 Funkce je volána z tela programu, nemá žádnou nadrazenou funkci<br>
 Vstupy jsou zpracované metodou
-[vstup_uzivatele_a_vetveni_programu](./secondMd.md)
 
+[vstup_uzivatele_a_vetveni_programu](./secondMd.md)
+[toto je link](./secondMd.md)
 <br>
