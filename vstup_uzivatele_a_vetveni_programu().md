@@ -3,14 +3,14 @@ funkce se zeptá na možnosti, dle hlavního_menu()<br>
 program se ptá do doby, dokud užibvatel nezadá vstup "4"<br>
 funkce uchovává promennou seznamUkolu = []<br>
 Dle zadaného vstupu se volá jedna z následujících metod:<br>
-1: seznamUkolu = [a_link](pridatUkol(seznamUkolu))<br>
-2: [a_link](zobrazit_ukoly(seznamUkolu))<br>
-3: seznamUkolu = [a_link](odstranit_ukol(seznamUkolu))<br>
+1: seznamUkolu = [pridatUkol(seznamUkolu)](https://github.com/jonasRower/Testing-Engeto-Project-1/blob/main/pridatUkol(seznamUkolu))<br>
+2: [zobrazit_ukoly(seznamUkolu)](https://github.com/jonasRower/Testing-Engeto-Project-1/blob/main/zobrazit_ukoly(seznamUkolu))<br>
+3: seznamUkolu = [odstranit_ukol(seznamUkolu)](https://github.com/jonasRower/Testing-Engeto-Project-1/blob/main/odstranit_ukol(seznamUkolu))<br>
 4: vypíše jen "KONEC PROGRAMU"<br>
 <br>
 seznam volaných metod:<br>
 hlavniMenu()<br>
-cislo_Ukolu = [a_link](vstup_uzivatele_validace())<br>
-seznamUkolu = [a_link](pridatUkol(seznamUkolu))<br>
-[a_link](zobrazit_ukoly(seznamUkolu))<br>
-seznamUkolu = [a_link](odstranit_ukol(seznamUkolu))<br>
+cislo_Ukolu = [vstup_uzivatele_validace()](https://github.com/jonasRower/Testing-Engeto-Project-1/blob/main/vstup_uzivatele_validace())<br>
+seznamUkolu = [pridatUkol(seznamUkolu)](https://github.com/jonasRower/Testing-Engeto-Project-1/blob/main/pridatUkol(seznamUkolu))<br>
+[zobrazit_ukoly(seznamUkolu)](https://github.com/jonasRower/Testing-Engeto-Project-1/blob/main/zobrazit_ukoly(seznamUkolu))<br>
+seznamUkolu = [odstranit_ukol(seznamUkolu)](https://github.com/jonasRower/Testing-Engeto-Project-1/blob/main/odstranit_ukol(seznamUkolu))<br>
