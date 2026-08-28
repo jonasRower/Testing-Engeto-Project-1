@@ -1,9 +1,9 @@
 ## vstup_uzivatele_validace()<br>
 funkce overuje (validuje typ vstupu)<br>
-pokud není vstup císlo, pak vypíše:<br>
-"Nezadali jste ciselnou hodnotu mezi 1-4! Zadejte vstup znovu." , pak se volá metoda sama sebe znovu (rekurzivne)<br>
+pokud nenÃ­ vstup cÃ­slo, pak vypÃ­Å¡e:<br>
+"Nezadali jste ciselnou hodnotu mezi 1-4! Zadejte vstup znovu." , pak se volÃ¡ metoda sama sebe znovu (rekurzivne)<br>
 <br>
-Pokud je funkce sice císlo, ale je menší ne 1 a vetší ne 4, pak vypíše zprávu:<br>
+Pokud je funkce sice cÃ­slo, ale je menÅ¡Ã­ neÅ¾ 1 a vetÅ¡Ã­ neÅ¾ 4, pak vypÃ­Å¡e zprÃ¡vu:<br>
 "Vstup je mimo rozsah 1-4! Zadejte vstup znovu."<br>
 <br>
-Pokud není ani jedna podmínka splnena, pak je funkce ukoncena s návratovou hodnotou císla monosti, dle nabídky v [a_link](hlavni_menu())<br>
+Pokud nenÃ­ ani jedna podmÃ­nka splnena, pak je funkce ukoncena s nÃ¡vratovou hodnotou cÃ­sla moÅ¾nosti, dle nabÃ­dky v (hlavni_menu()[(hlavni_menu()](https://github.com/jonasRower/Testing-Engeto-Project-1/blob/main/hlavni_menu().md))<br>
