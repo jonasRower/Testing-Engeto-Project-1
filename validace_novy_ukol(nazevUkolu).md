@@ -1,1 +1,1 @@
-[a_link](validace_novy_ukol(nazevUkolu))
+[a_link](validace_novy_ukol(nazevUkolu))<br>

@@ -1,16 +1,16 @@
-[a_link](vstup_uzivatele_a_vetveni_programu()) <br>
-funkce se zept√° na mo≈ænosti, dle hlavn√≠ho_menu() <br>
-program se pt√° do doby, dokud u≈æibvatel nezad√° vstup "4"
-funkce uchov√°v√° promennou seznamUkolu = []
-Dle zadan√©ho vstupu se vol√° jedna z n√°sleduj√≠c√≠ch metod:
-1: seznamUkolu = [a_link](pridatUkol(seznamUkolu))
-2: [a_link](zobrazit_ukoly(seznamUkolu))
-3: seznamUkolu = [a_link](odstranit_ukol(seznamUkolu))
-4: vyp√≠≈°e jen "KONEC PROGRAMU"
-
-seznam volan√Ωch metod:
-hlavniMenu()
-cislo_Ukolu = [a_link](vstup_uzivatele_validace())
-seznamUkolu = [a_link](pridatUkol(seznamUkolu))
-[a_link](zobrazit_ukoly(seznamUkolu))
-seznamUkolu = [a_link](odstranit_ukol(seznamUkolu))
+[a_link](vstup_uzivatele_a_vetveni_programu())<br>
+funkce se zept· na moûnosti, dle hlavnÌho_menu()<br>
+program se pt· do doby, dokud uûibvatel nezad· vstup "4"<br>
+funkce uchov·v· promennou seznamUkolu = []<br>
+Dle zadanÈho vstupu se vol· jedna z n·sledujÌcÌch metod:<br>
+1: seznamUkolu = [a_link](pridatUkol(seznamUkolu))<br>
+2: [a_link](zobrazit_ukoly(seznamUkolu))<br>
+3: seznamUkolu = [a_link](odstranit_ukol(seznamUkolu))<br>
+4: vypÌöe jen "KONEC PROGRAMU"<br>
+<br>
+seznam volan˝ch metod:<br>
+hlavniMenu()<br>
+cislo_Ukolu = [a_link](vstup_uzivatele_validace())<br>
+seznamUkolu = [a_link](pridatUkol(seznamUkolu))<br>
+[a_link](zobrazit_ukoly(seznamUkolu))<br>
+seznamUkolu = [a_link](odstranit_ukol(seznamUkolu))<br>
