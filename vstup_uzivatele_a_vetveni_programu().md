@@ -1,5 +1,5 @@
-[a_link](vstup_uzivatele_a_vetveni_programu()) (`<br>`),
-funkce se zeptá na možnosti, dle hlavního_menu() (`<br>`),
+[a_link](vstup_uzivatele_a_vetveni_programu()) <br>,
+funkce se zeptá na možnosti, dle hlavního_menu() <br>,
 program se ptá do doby, dokud užibvatel nezadá vstup "4"
 funkce uchovává promennou seznamUkolu = []
 Dle zadaného vstupu se volá jedna z následujících metod:
