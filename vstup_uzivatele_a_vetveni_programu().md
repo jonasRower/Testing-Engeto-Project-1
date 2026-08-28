@@ -1,14 +1,14 @@
-[a_link](vstup_uzivatele_a_vetveni_programu())
-funkce se zept· na moûnosti, dle hlavnÌho_menu()
-program se pt· do doby, dokud uûibvatel nezad· vstup "4"
-funkce uchov·v· promennou seznamUkolu = []
-Dle zadanÈho vstupu se vol· jedna z n·sledujÌcÌch metod:
+[a_link](vstup_uzivatele_a_vetveni_programu()) (`<br>`),
+funkce se zept√° na mo≈ænosti, dle hlavn√≠ho_menu() (`<br>`),
+program se pt√° do doby, dokud u≈æibvatel nezad√° vstup "4"
+funkce uchov√°v√° promennou seznamUkolu = []
+Dle zadan√©ho vstupu se vol√° jedna z n√°sleduj√≠c√≠ch metod:
 1: seznamUkolu = [a_link](pridatUkol(seznamUkolu))
 2: [a_link](zobrazit_ukoly(seznamUkolu))
 3: seznamUkolu = [a_link](odstranit_ukol(seznamUkolu))
-4: vypÌöe jen "KONEC PROGRAMU"
+4: vyp√≠≈°e jen "KONEC PROGRAMU"
 
-seznam volan˝ch metod:
+seznam volan√Ωch metod:
 hlavniMenu()
 cislo_Ukolu = [a_link](vstup_uzivatele_validace())
 seznamUkolu = [a_link](pridatUkol(seznamUkolu))
