@@ -1,4 +1,4 @@
-[a_link](pridatUkol(seznamUkolu))<br>
+## pridatUkol(seznamUkolu)<br>
 zeptá se na název úkolu<br>
 overuje název úkolu, zda obsahuje platné znaky - pomocí metody<br>
 validaceNazevUkolu = [a_link](validace_novy_ukol(nazevUkolu))<br>

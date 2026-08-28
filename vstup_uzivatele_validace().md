@@ -1,4 +1,4 @@
-[a_link](vstup_uzivatele_validace())<br>
+## vstup_uzivatele_validace()<br>
 funkce overuje (validuje typ vstupu)<br>
 pokud není vstup císlo, pak vypíše:<br>
 "Nezadali jste ciselnou hodnotu mezi 1-4! Zadejte vstup znovu." , pak se volá metoda sama sebe znovu (rekurzivne)<br>
