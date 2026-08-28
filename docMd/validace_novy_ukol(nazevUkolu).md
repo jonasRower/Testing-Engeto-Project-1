@@ -5,4 +5,4 @@ Overení prítomnosti alespon jednoho písmena se docílí, že<br>
 lowerCase =! upperCase<br>
 <br>
 <br>
-funkce vrací status typu boolean<br>
+funkce vrací status typu boolean do [pridatUkol(seznamUkolu)](./pridatUkol(seznamUkolu).md)<br>
