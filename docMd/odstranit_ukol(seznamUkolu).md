@@ -1,6 +1,7 @@
 ## odstranit_ukol(seznamUkolu)<br>
-je moné zadat bud název nebo císlo úkolu, kterı bude odebrán<br>
-pokud je zadán název úkolu, pak zjištuji jeho index (v seznamu) pomocí funkce:<br>
+je moÅ¾nÃ© zadat bud nÃ¡zev nebo cÃ­slo Ãºkolu, kterÃ½ bude odebrÃ¡n<br>
+pokud je zadÃ¡n nÃ¡zev Ãºkolu, pak zjiÅ¡tuji jeho index (v seznamu) pomocÃ­ funkce:<br>
+
 indUkolu = [vrat_Index_Dle_Klice(seznamUkolu, klicExp, hodnExp)](./vrat_Index_Dle_Klice(seznamUkolu, klicExp, hodnExp).md) - 1<br>
 <br>
-po zjištení indexu (bud zadaného jeho císla úkolu, nebo názvu) odebírám úkol pomocí metrody seznamUkolu.pop(indUkolu)<br>
+po zjiÅ¡tenÃ­ indexu (bud zadanÃ©ho jeho cÃ­sla Ãºkolu, nebo nÃ¡zvu) odebÃ­rÃ¡m Ãºkol pomocÃ­ metrody seznamUkolu.pop(indUkolu)<br>
