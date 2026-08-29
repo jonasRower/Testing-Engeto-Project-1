@@ -1,4 +1,4 @@
-# Testing-Engeto-Project-1
+# mdFilesGenerator
 
 Program generuje soubory md, tím že doplní odkazy a odřádkuje.<br>
 Jako uživatel se nemusím starat o syntaxi jazyka Markdown<br>
