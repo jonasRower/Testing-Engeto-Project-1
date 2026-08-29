@@ -11,5 +11,6 @@ Barevné písmo vkládá do .md souborů příslušný počet # čímž se nasta
 <br>
 Pokud se nalezne v textu název funkce, která je totožná s názvem funkce v některé oranžové buňce, kód jí zapíše jako odkaz<br>
 
-mdFilesGenerator/mdFilesGenerator.xlsm
+[je potřeba tento soubor stáhnout a povolit makra](./mdFilesGenerator.xlsm)<br>
+
 
