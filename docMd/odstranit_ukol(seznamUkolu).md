@@ -1,199 +1,201 @@
 # odstranit_ukol(seznamUkolu)<br>
 ## Popis Funkce<br>
-je moné zadat bud název nebo císlo úkolu, kterı bude odebrán<br>
-pokud je zadán název úkolu, pak zjištuji jeho index (v seznamu) pomocí funkce:<br>
+je moÅ¾nÃ© zadat bud nÃ¡zev nebo cÃ­slo Ãºkolu, kterÃ½ bude odebrÃ¡n<br>
+pokud je zadÃ¡n nÃ¡zev Ãºkolu, pak zjiÅ¡tuji jeho index (v seznamu) pomocÃ­ funkce:<br>
 indUkolu = [vrat_Index_Dle_Klice(seznamUkolu, klicExp, hodnExp)](./vrat_Index_Dle_Klice(seznamUkolu, klicExp, hodnExp).md) - 1<br>
 <br>
-po zjištení indexu (bud zadaného jeho císla úkolu, nebo názvu) odebírám úkol pomocí metrody seznamUkolu.pop(indUkolu)<br>
+po zjiÅ¡tenÃ­ indexu (bud zadanÃ©ho jeho cÃ­sla Ãºkolu, nebo nÃ¡zvu) odebÃ­rÃ¡m Ãºkol pomocÃ­ metrody seznamUkolu.pop(indUkolu)<br>
 <br>
-vrací aktualizovanı seznam nazpet do [vstup_uzivatele_a_vetveni_programu()](./vstup_uzivatele_a_vetveni_programu().md)<br>
+vracÃ­ aktualizovanÃ½ seznam nazpet do [vstup_uzivatele_a_vetveni_programu()](./vstup_uzivatele_a_vetveni_programu().md)<br>
 <br>
 <br>
-## Testovací scénár<br>
-Test : Odebrání úkolu zadaného pomocí jeho císla<br>
+## TestovacÃ­ scÃ©nÃ¡r<br>
+Test : OdebrÃ¡nÃ­ Ãºkolu zadanÃ©ho pomocÃ­ jeho cÃ­sla<br>
+[automatizovanÃ½ test](./OdstranUkolCislo.au3)<br>
+
 <br>
 ### Popis testu<br>
-Otevrít cmd.exe<br>
+OtevrÃ­t cmd.exe<br>
 Spustit program main.py<br>
 <br>
 <br>
-Vybrat monost: 1<br>
-Zadat název úkolu : Ukol 1<br>
-Zadat popis úkolu : Popis 1<br>
+Vybrat moÅ¾nost: 1<br>
+Zadat nÃ¡zev Ãºkolu : Ukol 1<br>
+Zadat popis Ãºkolu : Popis 1<br>
 <br>
-Vybrat monost: 1<br>
-Zadat název úkolu : Ukol 2<br>
-Zadat popis úkolu : Popis 2<br>
+Vybrat moÅ¾nost: 1<br>
+Zadat nÃ¡zev Ãºkolu : Ukol 2<br>
+Zadat popis Ãºkolu : Popis 2<br>
 <br>
-Vybrat monost: 1<br>
-Zadat název úkolu : Ukol 3<br>
-Zadat popis úkolu : Popis 3<br>
+Vybrat moÅ¾nost: 1<br>
+Zadat nÃ¡zev Ãºkolu : Ukol 3<br>
+Zadat popis Ãºkolu : Popis 3<br>
 <br>
 <br>
-Vybrat monost: 2<br>
-Vybrat monost: 3<br>
+Vybrat moÅ¾nost: 2<br>
+Vybrat moÅ¾nost: 3<br>
 Zadat vstup: 1<br>
 <br>
-Vybrat monost: 2<br>
+Vybrat moÅ¾nost: 2<br>
 <br>
 <br>
-### Ocekávanı vıstup:<br>
-Zadejte nazev ukolu, ktery chceš odstranit (mueš zadat i jeho císlo): 1<br>
-Ukol císlo : '1' byl odebrán<br>
+### OcekÃ¡vanÃ½ vÃ½stup:<br>
+Zadejte nazev ukolu, ktery chceÅ¡ odstranit (muÅ¾eÅ¡ zadat i jeho cÃ­slo): 1<br>
+Ukol cÃ­slo : '1' byl odebrÃ¡n<br>
 <br>
-Správce úkolu - Hlavní menu<br>
-1. Pridat novı úkol<br>
-2. Zobrazit všechny úkoly<br>
-3. Odstranit úkol<br>
+SprÃ¡vce Ãºkolu - HlavnÃ­ menu<br>
+1. Pridat novÃ½ Ãºkol<br>
+2. Zobrazit vÅ¡echny Ãºkoly<br>
+3. Odstranit Ãºkol<br>
 4. Konec programu<br>
 
-Vyberte monost (1-4) : 2<br>
+Vyberte moÅ¾nost (1-4) : 2<br>
 <br>
-Seznam úkolu:<br>
+Seznam Ãºkolu:<br>
 1. Ukol 2 - Popis 2<br>
 2. Ukol 3 - Popis 3<br>
 
 <br>
-## Testovací scénár<br>
-Test : Odebrání úkolu zadaného pomocí jeho názvu<br>
+## TestovacÃ­ scÃ©nÃ¡r<br>
+Test : OdebrÃ¡nÃ­ Ãºkolu zadanÃ©ho pomocÃ­ jeho nÃ¡zvu<br>
 <br>
 ### Popis testu<br>
-Otevrít cmd.exe<br>
+OtevrÃ­t cmd.exe<br>
 Spustit program main.py<br>
 <br>
 <br>
-Vybrat monost: 1<br>
-Zadat název úkolu : Ukol 1<br>
-Zadat popis úkolu : Popis 1<br>
+Vybrat moÅ¾nost: 1<br>
+Zadat nÃ¡zev Ãºkolu : Ukol 1<br>
+Zadat popis Ãºkolu : Popis 1<br>
 <br>
-Vybrat monost: 1<br>
-Zadat název úkolu : Ukol 2<br>
-Zadat popis úkolu : Popis 2<br>
+Vybrat moÅ¾nost: 1<br>
+Zadat nÃ¡zev Ãºkolu : Ukol 2<br>
+Zadat popis Ãºkolu : Popis 2<br>
 <br>
-Vybrat monost: 1<br>
-Zadat název úkolu : Ukol 3<br>
-Zadat popis úkolu : Popis 3<br>
+Vybrat moÅ¾nost: 1<br>
+Zadat nÃ¡zev Ãºkolu : Ukol 3<br>
+Zadat popis Ãºkolu : Popis 3<br>
 <br>
 <br>
-Vybrat monost: 2<br>
-Vybrat monost: 3<br>
+Vybrat moÅ¾nost: 2<br>
+Vybrat moÅ¾nost: 3<br>
 Zadat vstup: Ukol 1<br>
 <br>
-Vybrat monost: 2<br>
+Vybrat moÅ¾nost: 2<br>
 <br>
 <br>
-### Ocekávanı vıstup:<br>
-Zadejte nazev ukolu, ktery chceš odstranit (mueš zadat i jeho císlo): Ukol 1<br>
-Ukol 'Ukol 1' byl odebrán<br>
+### OcekÃ¡vanÃ½ vÃ½stup:<br>
+Zadejte nazev ukolu, ktery chceÅ¡ odstranit (muÅ¾eÅ¡ zadat i jeho cÃ­slo): Ukol 1<br>
+Ukol 'Ukol 1' byl odebrÃ¡n<br>
 <br>
-Správce úkolu - Hlavní menu<br>
-1. Pridat novı úkol<br>
-2. Zobrazit všechny úkoly<br>
-3. Odstranit úkol<br>
+SprÃ¡vce Ãºkolu - HlavnÃ­ menu<br>
+1. Pridat novÃ½ Ãºkol<br>
+2. Zobrazit vÅ¡echny Ãºkoly<br>
+3. Odstranit Ãºkol<br>
 4. Konec programu<br>
 
-Vyberte monost (1-4) : 2<br>
+Vyberte moÅ¾nost (1-4) : 2<br>
 <br>
-Seznam úkolu:<br>
+Seznam Ãºkolu:<br>
 1. Ukol 2 - Popis 2<br>
 2. Ukol 3 - Popis 3<br>
 
 <br>
-## Testovací scénár<br>
-Test: Nevalidní vstup - odebírám císlo úkolu, které neexistuje<br>
+## TestovacÃ­ scÃ©nÃ¡r<br>
+Test: NevalidnÃ­ vstup - odebÃ­rÃ¡m cÃ­slo Ãºkolu, kterÃ© neexistuje<br>
 <br>
 ### Popis testu<br>
-Otevrít cmd.exe<br>
+OtevrÃ­t cmd.exe<br>
 Spustit program main.py<br>
 <br>
 <br>
-Vybrat monost: 1<br>
-Zadat název úkolu : Ukol 1<br>
-Zadat popis úkolu : Popis 1<br>
+Vybrat moÅ¾nost: 1<br>
+Zadat nÃ¡zev Ãºkolu : Ukol 1<br>
+Zadat popis Ãºkolu : Popis 1<br>
 <br>
-Vybrat monost: 1<br>
-Zadat název úkolu : Ukol 2<br>
-Zadat popis úkolu : Popis 2<br>
+Vybrat moÅ¾nost: 1<br>
+Zadat nÃ¡zev Ãºkolu : Ukol 2<br>
+Zadat popis Ãºkolu : Popis 2<br>
 <br>
-Vybrat monost: 1<br>
-Zadat název úkolu : Ukol 3<br>
-Zadat popis úkolu : Popis 3<br>
-<br>
-<br>
-Vybrat monost: 2<br>
-<br>
-Vybrat monost: 3<br>
-Zadat vstup: 99  (neexistující císlo úkolu)<br>
-<br>
-Vybrat monost: 2<br>
+Vybrat moÅ¾nost: 1<br>
+Zadat nÃ¡zev Ãºkolu : Ukol 3<br>
+Zadat popis Ãºkolu : Popis 3<br>
 <br>
 <br>
-### Ocekávanı vıstup:<br>
-Vyberte monost (1-4) : 3<br>
-Zadejte nazev ukolu, ktery chceš odstranit (mueš zadat i jeho císlo): 99<br>
+Vybrat moÅ¾nost: 2<br>
+<br>
+Vybrat moÅ¾nost: 3<br>
+Zadat vstup: 99  (neexistujÃ­cÃ­ cÃ­slo Ãºkolu)<br>
+<br>
+Vybrat moÅ¾nost: 2<br>
+<br>
+<br>
+### OcekÃ¡vanÃ½ vÃ½stup:<br>
+Vyberte moÅ¾nost (1-4) : 3<br>
+Zadejte nazev ukolu, ktery chceÅ¡ odstranit (muÅ¾eÅ¡ zadat i jeho cÃ­slo): 99<br>
 <br>
 CHYBA<br>
 Toto cislo ukolu neexistuje.<br>
 Ukol nemuze byt odebran.<br>
 <br>
-Správce úkolu - Hlavní menu<br>
-1. Pridat novı úkol<br>
-2. Zobrazit všechny úkoly<br>
-3. Odstranit úkol<br>
+SprÃ¡vce Ãºkolu - HlavnÃ­ menu<br>
+1. Pridat novÃ½ Ãºkol<br>
+2. Zobrazit vÅ¡echny Ãºkoly<br>
+3. Odstranit Ãºkol<br>
 4. Konec programu<br>
 
-Vyberte monost (1-4) : 2<br>
+Vyberte moÅ¾nost (1-4) : 2<br>
 <br>
-Seznam úkolu:<br>
+Seznam Ãºkolu:<br>
 1. Ukol 1 - Popis 1<br>
 2. Ukol 2 - Popis 2<br>
 3. Ukol 3 - Popis 3<br>
 
 <br>
-## Testovací scénár<br>
-Test : Nevalidní vstup - odebírám název úkolu, které neexistuje<br>
+## TestovacÃ­ scÃ©nÃ¡r<br>
+Test : NevalidnÃ­ vstup - odebÃ­rÃ¡m nÃ¡zev Ãºkolu, kterÃ© neexistuje<br>
 <br>
 ### Popis testu<br>
-Otevrít cmd.exe<br>
+OtevrÃ­t cmd.exe<br>
 Spustit program main.py<br>
 <br>
 <br>
-Vybrat monost: 1<br>
-Zadat název úkolu : Ukol 1<br>
-Zadat popis úkolu : Popis 1<br>
+Vybrat moÅ¾nost: 1<br>
+Zadat nÃ¡zev Ãºkolu : Ukol 1<br>
+Zadat popis Ãºkolu : Popis 1<br>
 <br>
-Vybrat monost: 1<br>
-Zadat název úkolu : Ukol 2<br>
-Zadat popis úkolu : Popis 2<br>
+Vybrat moÅ¾nost: 1<br>
+Zadat nÃ¡zev Ãºkolu : Ukol 2<br>
+Zadat popis Ãºkolu : Popis 2<br>
 <br>
-Vybrat monost: 1<br>
-Zadat název úkolu : Ukol 3<br>
-Zadat popis úkolu : Popis 3<br>
+Vybrat moÅ¾nost: 1<br>
+Zadat nÃ¡zev Ãºkolu : Ukol 3<br>
+Zadat popis Ãºkolu : Popis 3<br>
 <br>
 <br>
-Vybrat monost: 2<br>
-Vybrat monost: 3<br>
+Vybrat moÅ¾nost: 2<br>
+Vybrat moÅ¾nost: 3<br>
 Zadat vstup: xxx<br>
 <br>
-Vybrat monost: 2<br>
+Vybrat moÅ¾nost: 2<br>
 <br>
 <br>
-### Ocekávanı vıstup:<br>
-Zadejte nazev ukolu, ktery chceš odstranit (mueš zadat i jeho císlo): xxx<br>
+### OcekÃ¡vanÃ½ vÃ½stup:<br>
+Zadejte nazev ukolu, ktery chceÅ¡ odstranit (muÅ¾eÅ¡ zadat i jeho cÃ­slo): xxx<br>
 <br>
 CHYBA<br>
 Tento nazev ukolu neexistuje.<br>
 Ukol nemuze byt odebran.<br>
 <br>
-Správce úkolu - Hlavní menu<br>
-1. Pridat novı úkol<br>
-2. Zobrazit všechny úkoly<br>
-3. Odstranit úkol<br>
+SprÃ¡vce Ãºkolu - HlavnÃ­ menu<br>
+1. Pridat novÃ½ Ãºkol<br>
+2. Zobrazit vÅ¡echny Ãºkoly<br>
+3. Odstranit Ãºkol<br>
 4. Konec programu<br>
 
-Vyberte monost (1-4) : 2<br>
+Vyberte moÅ¾nost (1-4) : 2<br>
 <br>
-Seznam úkolu:<br>
+Seznam Ãºkolu:<br>
 1. Ukol 1 - Popis 1<br>
 2. Ukol 2 - Popis 2<br>
 3. Ukol 3 - Popis 3<br>
