@@ -39,4 +39,4 @@ Stav: Pass
 Poznámky: Tento případ je důležitý, protože ověřuje základní navigaci z hlavního menu a funkčnost jedné z klíčových funkcí programu.
 
 
-[dokumntace kódu je zde](./docMd/hlavni_menu().md
+[dokumntace kódu je zde](./docMd/hlavni_menu().md)
