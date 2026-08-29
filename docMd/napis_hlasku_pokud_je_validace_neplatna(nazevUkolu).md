@@ -1,61 +1,63 @@
 # napis_hlasku_pokud_je_validace_neplatna(nazevUkolu)<br>
 ## Popis Funkce<br>
-napíše zprávu pokud byl zadán neplatnı název úkolu a  to jedna z následujících moností:<br>
+napÃ­Å¡e zprÃ¡vu pokud byl zadÃ¡n neplatnÃ½ nÃ¡zev Ãºkolu a  to jedna z nÃ¡sledujÃ­cÃ­ch moÅ¾nostÃ­:<br>
 <br>
-Nebyl zadán ádnı název úkolu, akci opakuj znovu<br>
+Nebyl zadÃ¡n Å¾Ã¡dnÃ½ nÃ¡zev Ãºkolu, akci opakuj znovu<br>
 nebo<br>
-název ukolu by mel obsahovat alespon jedno pismeno<br>
+nÃ¡zev ukolu by mel obsahovat alespon jedno pismeno<br>
 <br>
-Funkce nevrací nic, je vsak volaná z [pridatUkol(seznamUkolu)](./pridatUkol(seznamUkolu).md)<br>
+Funkce nevracÃ­ nic, je vsak volanÃ¡ z [pridatUkol(seznamUkolu)](./pridatUkol(seznamUkolu).md)<br>
 <br>
 <br>
-## Testovací scénár<br>
-Test : Pridání úkolu s neplatnım názvem<br>
+## TestovacÃ­ scÃ©nÃ¡r<br>
+Test : PridÃ¡nÃ­ Ãºkolu s neplatnÃ½m nÃ¡zvem<br>
+[automatizovanÃ½ test](../AutomatickeTesty/pridatUkol-.au3)<br>
+
 <br>
 ### Popis testu<br>
-Otevrít cmd.exe<br>
+OtevrÃ­t cmd.exe<br>
 Spustit program main.py<br>
 <br>
-Vybrat monost: 1<br>
-Zadat název úkolu: {ENTER}<br>
+Vybrat moÅ¾nost: 1<br>
+Zadat nÃ¡zev Ãºkolu: {ENTER}<br>
 <br>
-Vybrat monost: 1<br>
-Zadat název úkolu: %<br>
+Vybrat moÅ¾nost: 1<br>
+Zadat nÃ¡zev Ãºkolu: %<br>
 <br>
-Vybrat monost: 1<br>
-Zadat název úkolu: 1<br>
+Vybrat moÅ¾nost: 1<br>
+Zadat nÃ¡zev Ãºkolu: 1<br>
 <br>
 <br>
-### Ocekávanı vıstup:<br>
-Správce úkolu - Hlavní menu<br>
-1. Pridat novı úkol<br>
-2. Zobrazit všechny úkoly<br>
-3. Odstranit úkol<br>
+### OcekÃ¡vanÃ½ vÃ½stup:<br>
+SprÃ¡vce Ãºkolu - HlavnÃ­ menu<br>
+1. Pridat novÃ½ Ãºkol<br>
+2. Zobrazit vÅ¡echny Ãºkoly<br>
+3. Odstranit Ãºkol<br>
 4. Konec programu<br>
-Vyberte monost (1-4) : 1<br>
+Vyberte moÅ¾nost (1-4) : 1<br>
 Zadejte nazev ukolu :<br>
 <br>
-Úkol nebyl pridán<br>
-Nebyl zadán ádnı název úkolu, akci opakuj znovu<br>
+Ãškol nebyl pridÃ¡n<br>
+Nebyl zadÃ¡n Å¾Ã¡dnÃ½ nÃ¡zev Ãºkolu, akci opakuj znovu<br>
 <br>
-Správce úkolu - Hlavní menu<br>
-1. Pridat novı úkol<br>
-2. Zobrazit všechny úkoly<br>
-3. Odstranit úkol<br>
+SprÃ¡vce Ãºkolu - HlavnÃ­ menu<br>
+1. Pridat novÃ½ Ãºkol<br>
+2. Zobrazit vÅ¡echny Ãºkoly<br>
+3. Odstranit Ãºkol<br>
 4. Konec programu<br>
-Vyberte monost (1-4) : 1<br>
+Vyberte moÅ¾nost (1-4) : 1<br>
 Zadejte nazev ukolu : %<br>
 <br>
-Úkol nebyl pridán<br>
-název ukolu by mel obsahovat alespon jedno pismeno<br>
+Ãškol nebyl pridÃ¡n<br>
+nÃ¡zev ukolu by mel obsahovat alespon jedno pismeno<br>
 <br>
-Správce úkolu - Hlavní menu<br>
-1. Pridat novı úkol<br>
-2. Zobrazit všechny úkoly<br>
-3. Odstranit úkol<br>
+SprÃ¡vce Ãºkolu - HlavnÃ­ menu<br>
+1. Pridat novÃ½ Ãºkol<br>
+2. Zobrazit vÅ¡echny Ãºkoly<br>
+3. Odstranit Ãºkol<br>
 4. Konec programu<br>
-Vyberte monost (1-4) : 1<br>
+Vyberte moÅ¾nost (1-4) : 1<br>
 Zadejte nazev ukolu : 1<br>
 <br>
-Úkol nebyl pridán<br>
-název ukolu by mel obsahovat alespon jedno pismeno<br>
+Ãškol nebyl pridÃ¡n<br>
+nÃ¡zev ukolu by mel obsahovat alespon jedno pismeno<br>
