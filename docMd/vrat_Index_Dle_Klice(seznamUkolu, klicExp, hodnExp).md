@@ -1,10 +1,10 @@
 # vrat_Index_Dle_Klice(seznamUkolu, klicExp, hodnExp)<br>
 ## Popis Funkce<br>
-Tato metoda se spustÌ, kdyû potrebuji vyhledat index poloûky v seznamu, kter· je definov·na hodnotou klÌce<br>
-Vr·tÌ tedy index v seznamu dle hodnoty klÌce.<br>
+Tato metoda se spust√≠, kdy≈æ potrebuji vyhledat index polo≈æky v seznamu, kter√° je definov√°na hodnotou kl√≠ce<br>
+Vr√°t√≠ tedy index v seznamu dle hodnoty kl√≠ce.<br>
 <br>
-N·vratovou hodnotu typu Integer vracÌ do funkce [odstranit_ukol(seznamUkolu)](./odstranit_ukol(seznamUkolu).md)<br>
+N√°vratovou hodnotu typu Integer vrac√≠ do funkce [odstranit_ukol(seznamUkolu)](./odstranit_ukol(seznamUkolu).md)<br>
 <br>
 <br>
-## TestovacÌ scÈn·r<br>
-odstranit ˙kol<br>
+## Testovac√≠ sc√©n√°r<br>
+[odstranit_ukol(seznamUkolu)](./odstranit_ukol(seznamUkolu).md)
