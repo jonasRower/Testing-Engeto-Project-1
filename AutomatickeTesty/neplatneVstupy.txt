@@ -1,0 +1,28 @@
+Test: Validace 
+
+Otevřít cmd.exe
+Spustit program main.py
+
+Po výzvě "Vyberte možnost (1-4) :" vložit postupně vstupy:
+
+Vložit Enter
+Vložit 123456789 + Enter
+Vložit ABCDEFGHIJKLMNOPQRSTUVWXYZ + Enter
+Vložit %?_/*~+-@&;,.][}{ + Enter
+
+
+Očekávaný výstup:
+
+Vyberte možnost (1-4) :
+
+CHYBA:
+Nezadali jste ciselnou hodnotu mezi 1-4! Zadejte vstup znovu.
+Vyberte možnost (1-4) : 123456789
+
+CHYBA:
+Vstup je mimo rozsah 1-4! Zadejte vstup znovu.
+Vyberte možnost (1-4) : ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+CHYBA:
+Nezadali jste ciselnou hodnotu mezi 1-4! Zadejte vstup znovu.
+Vyberte možnost (1-4) : %?_/*_@&;,.][}{

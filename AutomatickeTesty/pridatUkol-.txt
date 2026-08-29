@@ -1,0 +1,52 @@
+Test : Přidání úkolu s neplatným názvem
+
+Otevřít cmd.exe
+Spustit program main.py
+
+
+Vybrat možnost: 1
+Zadat název úkolu: {ENTER}
+
+
+Vybrat možnost: 1
+Zadat název úkolu: %
+
+
+Vybrat možnost: 1
+Zadat název úkolu: 1
+
+
+Očekávaný výstup:
+
+Správce úkolů - Hlavní menu
+1. Přidat nový úkol
+2. Zobrazit všechny úkoly
+3. Odstranit úkol
+4. Konec programu
+Vyberte možnost (1-4) : 1
+Zadejte nazev ukolu :
+
+Úkol nebyl přidán
+Nebyl zadán žádný název úkolu, akci opakuj znovu
+
+Správce úkolů - Hlavní menu
+1. Přidat nový úkol
+2. Zobrazit všechny úkoly
+3. Odstranit úkol
+4. Konec programu
+Vyberte možnost (1-4) : 1
+Zadejte nazev ukolu : %
+
+Úkol nebyl přidán
+název ukolu by měl obsahovat alespoň jedno pismeno
+
+Správce úkolů - Hlavní menu
+1. Přidat nový úkol
+2. Zobrazit všechny úkoly
+3. Odstranit úkol
+4. Konec programu
+Vyberte možnost (1-4) : 1
+Zadejte nazev ukolu : 1
+
+Úkol nebyl přidán
+název ukolu by měl obsahovat alespoň jedno pismeno

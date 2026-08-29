@@ -1,0 +1,55 @@
+Test: Nevalidní vstup - odebírám číslo úkolu, které neexistuje
+
+Otevřít cmd.exe
+Spustit program main.py
+
+
+Vybrat možnost: 1
+Zadat název úkolu : Ukol 1
+Zadat popis úkolu : Popis 1
+
+Vybrat možnost: 1
+Zadat název úkolu : Ukol 2
+Zadat popis úkolu : Popis 2
+
+Vybrat možnost: 1
+Zadat název úkolu : Ukol 3
+Zadat popis úkolu : Popis 3
+
+
+Vybrat možnost: 2
+
+Vybrat možnost: 3
+Zadat vstup: 99  (neexistující číslo úkolu)
+
+Vybrat možnost: 2
+
+
+
+Očekávaný výstup:
+
+Vyberte možnost (1-4) : 3
+Zadejte nazev ukolu, ktery chceš odstranit (můžeš zadat i jeho číslo): 99
+
+CHYBA
+Toto cislo ukolu neexistuje.
+Ukol nemuze byt odebran.
+
+Správce úkolů - Hlavní menu
+1. Přidat nový úkol
+2. Zobrazit všechny úkoly
+3. Odstranit úkol
+4. Konec programu
+Vyberte možnost (1-4) : 2
+
+Seznam úkolů:
+1. Ukol 1 - Popis 1
+2. Ukol 2 - Popis 2
+3. Ukol 3 - Popis 3
+
+Správce úkolů - Hlavní menu
+1. Přidat nový úkol
+2. Zobrazit všechny úkoly
+3. Odstranit úkol
+4. Konec programu
+Vyberte možnost (1-4) :

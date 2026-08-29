@@ -1,0 +1,19 @@
+Test: Validace 
+
+Otevřít cmd.exe
+Spustit program main.py
+
+Po výzvě "Vyberte možnost (1-4) :" vložit postupně vstupy:
+
+Vložit "4" + Enter
+
+
+Očekávaný výstup:
+
+Správce úkolů - Hlavní menu
+1. Přidat nový úkol
+2. Zobrazit všechny úkoly
+3. Odstranit úkol
+4. Konec programu
+Vyberte možnost (1-4) : 4
+KONEC PROGRAMU

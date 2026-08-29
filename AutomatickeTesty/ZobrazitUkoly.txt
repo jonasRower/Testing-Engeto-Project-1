@@ -1,0 +1,31 @@
+Test : Seznam úkolů
+
+Otevřít cmd.exe
+Spustit program main.py
+
+
+Vybrat možnost: 1
+Zadat název úkolu : Ukol 1
+Zadat popis úkolu : Popis 1
+
+Vybrat možnost: 1
+Zadat název úkolu : Ukol 2
+Zadat popis úkolu : Popis 2
+
+Vybrat možnost: 1
+Zadat název úkolu : Ukol 3
+Zadat popis úkolu : Popis 3
+
+
+Vybrat možnost: 2
+
+
+Očekávaný výstup:
+
+Seznam úkolů:
+1. Ukol 1 - Popis 1
+2. Ukol 2 - Popis 2
+3. Ukol 3 - Popis 3
+Vyberte možnost (1-4) :
+
+

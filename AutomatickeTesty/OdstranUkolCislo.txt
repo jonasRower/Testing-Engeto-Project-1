@@ -1,0 +1,41 @@
+Test : Odebrání úkolu zadaného pomocí jeho čísla
+
+Otevřít cmd.exe
+Spustit program main.py
+
+
+Vybrat možnost: 1
+Zadat název úkolu : Ukol 1
+Zadat popis úkolu : Popis 1
+
+Vybrat možnost: 1
+Zadat název úkolu : Ukol 2
+Zadat popis úkolu : Popis 2
+
+Vybrat možnost: 1
+Zadat název úkolu : Ukol 3
+Zadat popis úkolu : Popis 3
+
+
+Vybrat možnost: 2
+Vybrat možnost: 3
+Zadat vstup: 1
+
+Vybrat možnost: 2
+
+
+Očekávaný výstup:
+
+Zadejte nazev ukolu, ktery chceš odstranit (můžeš zadat i jeho číslo): 1
+Ukol číslo : '1' byl odebrán
+
+Správce úkolů - Hlavní menu
+1. Přidat nový úkol
+2. Zobrazit všechny úkoly
+3. Odstranit úkol
+4. Konec programu
+Vyberte možnost (1-4) : 2
+
+Seznam úkolů:
+1. Ukol 2 - Popis 2
+2. Ukol 3 - Popis 3
