@@ -1,4 +1,0 @@
-Je potreba overit, ze nazev ukolu nesmi byt cislo a nevalidni znaky 
-Popis ukolu nesmi byt jenom cisloa nesmi obsahivta mezery
-
-je potreba vymyslet kam na github dat testovaci soubory
