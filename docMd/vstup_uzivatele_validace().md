@@ -1,4 +1,4 @@
-## vstup_uzivatele_validace()<br>
+# vstup_uzivatele_validace()<br>
 ## Popis Funkce<br>
 funkce overuje (validuje typ vstupu)<br>
 pokud není vstup císlo, pak vypíše:<br>
@@ -10,9 +10,9 @@ Pokud je funkce sice císlo, ale je menší než 1 a vetší než 4, pak vypíše zprávu:
 Pokud není ani jedna podmínka splnena, pak je funkce ukoncena s návratovou hodnotou císla možnosti, dle nabídky v [hlavni_menu()](./hlavni_menu().md)<br>
 <br>
 ## Testovací scénár<br>
+Test: Validace vstupu<br>
+## <br>
 ### Popis testu<br>
-Test: Validace<br>
-<br>
 Otevrít cmd.exe<br>
 Spustit program main.py<br>
 <br>
@@ -25,7 +25,6 @@ Vložit %?_/*~+-@&;,.][}{ + Enter<br>
 <br>
 <br>
 ### Ocekávaný výstup:<br>
-<br>
 Vyberte možnost (1-4) :<br>
 <br>
 CHYBA:<br>

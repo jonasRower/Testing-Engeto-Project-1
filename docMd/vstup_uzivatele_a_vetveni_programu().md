@@ -1,4 +1,4 @@
-## vstup_uzivatele_a_vetveni_programu()<br>
+# vstup_uzivatele_a_vetveni_programu()<br>
 ## Popis Funkce<br>
 funkce se zeptá na možnosti, dle hlavního_menu()<br>
 program se ptá do doby, dokud užibvatel nezadá vstup "4"<br>
