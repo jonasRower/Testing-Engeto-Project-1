@@ -1,5 +1,9 @@
+
+#import pydoc
+
 def hlavni_menu():
-    print("Správce úkolů - Hlavní menu")
+
+    print("\nSprávce úkolů - Hlavní menu")
 
     ukoly = []
     ukoly.append("1. Přidat nový úkol")
@@ -13,20 +17,40 @@ def hlavni_menu():
 
 def pridatUkol(seznamUkolu):
     nazevUkolu = input("Zadejte nazev ukolu : ")
-    popisUkolu = input("Zadejte popis ukolu : ")
+    validaceNazevUkolu = validace_novy_ukol(nazevUkolu)
 
-    nazevAPopisUkolu = {
-          "nazevUkolu": nazevUkolu,
-          "popisUkolu": popisUkolu
-    }
+    if(validaceNazevUkolu == True):
+        popisUkolu = input("Zadejte popis ukolu : ")
 
-    seznamUkolu.append(nazevAPopisUkolu)
+        nazevAPopisUkolu = {
+              "nazevUkolu": nazevUkolu,
+              "popisUkolu": popisUkolu
+        }
+
+        seznamUkolu.append(nazevAPopisUkolu)
+
+        print("Úkol '" + nazevUkolu + "' byl přidán\n")
+
+    else:
+        napis_hlasku_pokud_je_validace_neplatna(nazevUkolu)
 
     return (seznamUkolu)
 
 
+def napis_hlasku_pokud_je_validace_neplatna(nazevUkolu):
+
+    nazevUkoluBezMezer = nazevUkolu.strip()
+
+    print("\nÚkol nebyl přidán")
+
+    if(nazevUkoluBezMezer == ""):
+        print("Nebyl zadán žádný název úkolu, akci opakuj znovu")
+    else:
+        print("název ukolu by měl obsahovat alespoň jedno pismeno")
+
+
 def zobrazit_ukoly(seznamUkolu):
-    print("Seznam úkolů:")
+    print("\nSeznam úkolů:")
     i1 = 0
 
     for nazevAPopisUkolu in seznamUkolu:
@@ -41,17 +65,29 @@ def zobrazit_ukoly(seznamUkolu):
 
 def odstranit_ukol(seznamUkolu):
 
-    hodnExp = input("Zadejte nazev ukolu, ktery chcete odstranit : ")
-    klicExp = "nazevUkolu"
+    hodnExp = input("Zadejte nazev ukolu, ktery chceš odstranit (můžeš zadat i jeho číslo): ")
+    nazevUkoluJeCislo = hodnExp.isnumeric()
 
-    indUkolu = vrat_Index_Dle_Klice(seznamUkolu, klicExp, hodnExp) - 1
+    if(nazevUkoluJeCislo == False):
 
-    if(indUkolu == -2):
-        print("\nCHYBA\nTento nazev ukolu neexistuje.\nUkol nemuze byt odebran.")
+        klicExp = "nazevUkolu"
+        indUkolu = vrat_Index_Dle_Klice(seznamUkolu, klicExp, hodnExp) - 1
+
+        if(indUkolu == -2):
+            print("\nCHYBA\nTento nazev ukolu neexistuje.\nUkol nemuze byt odebran.")
+        else:
+            seznamUkolu.pop(indUkolu)
+            print("Ukol '" + hodnExp + "' byl odebrán")
+
     else:
-        seznamUkolu.pop(indUkolu)
-        print("Ukol " + hodnExp + " byl odebran")
+        indUkolu = int(hodnExp) - 1
 
+        if(indUkolu > len(seznamUkolu) or indUkolu < 0):
+            print("\nCHYBA\nToto cislo ukolu neexistuje.\nUkol nemuze byt odebran.")
+
+        else:
+            seznamUkolu.pop(indUkolu)
+            print("Ukol číslo : '" + hodnExp + "' byl odebrán")
 
     return(seznamUkolu)
 
@@ -69,6 +105,28 @@ def vrat_Index_Dle_Klice(seznamUkolu, klicExp, hodnExp):
             break
 
     return(ind)
+
+
+# nazev ukolu nesmi obsahovat
+def validace_novy_ukol(nazevUkolu):
+
+    nazevUkoluJeCislo = nazevUkolu.isnumeric()
+
+    if(nazevUkoluJeCislo == False):
+
+        lowerCase = nazevUkolu.lower()
+        upperCase = nazevUkolu.upper()
+
+        if(lowerCase != upperCase):
+            validaceOK = True
+        else:
+            validaceOK = False
+
+    else:
+        validaceOK = False
+
+
+    return(validaceOK)
 
 
 def vstup_uzivatele_validace():
@@ -97,8 +155,12 @@ def vstup_uzivatele_validace():
 def vstup_uzivatele_a_vetveni_programu():
     seznamUkolu = []
     pokracujVCyklu = True
+    indCyklu = 0
 
     while pokracujVCyklu == True:
+
+        if(indCyklu > 0):
+            hlavni_menu()
 
         cislo_Ukolu = vstup_uzivatele_validace()
 
@@ -111,14 +173,14 @@ def vstup_uzivatele_a_vetveni_programu():
             case "3":
                 seznamUkolu = odstranit_ukol(seznamUkolu)
             case "4":
+                print("KONEC PROGRAMU")
                 pokracujVCyklu = False
 
+
+        indCyklu = indCyklu + 1
 
 
 hlavni_menu()
 vstup_uzivatele_a_vetveni_programu()
 
-
-
-
-
+#pydoc.writedoc("main")
