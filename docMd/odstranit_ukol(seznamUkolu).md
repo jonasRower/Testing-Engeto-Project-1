@@ -14,6 +14,7 @@ Test : Odebrání úkolu zadaného pomocí jeho císla<br>
 [automatizovaný test](../AutomatickeTesty/OdstranUkolCislo.au3)<br>
 
 <br>
+
 ### Popis testu<br>
 Otevrít cmd.exe<br>
 Spustit program main.py<br>
@@ -56,11 +57,13 @@ Seznam úkolu:<br>
 2. Ukol 3 - Popis 3<br>
 
 <br>
+
 ## Testovací scénár<br>
 Test : Odebrání úkolu zadaného pomocí jeho názvu<br>
-[automatizovaný test](../AutomatickeTesty/OdstranUkolCislo.au3) <br>
+[automatizovaný test](../AutomatickeTesty/OdstranUkolNazev.au3) <br>
 
 <br>
+
 ### Popis testu<br>
 Otevrít cmd.exe<br>
 Spustit program main.py<br>
@@ -103,8 +106,11 @@ Seznam úkolu:<br>
 2. Ukol 3 - Popis 3<br>
 
 <br>
+
 ## Testovací scénár<br>
 Test: Nevalidní vstup - odebírám císlo úkolu, které neexistuje<br>
+[automatizovaný test](../AutomatickeTesty/OdstranUkolCislo-.au3) <br>
+
 <br>
 ### Popis testu<br>
 Otevrít cmd.exe<br>
@@ -132,6 +138,7 @@ Zadat vstup: 99  (neexistující císlo úkolu)<br>
 Vybrat možnost: 2<br>
 <br>
 <br>
+
 ### Ocekávaný výstup:<br>
 Vyberte možnost (1-4) : 3<br>
 Zadejte nazev ukolu, ktery chceš odstranit (mužeš zadat i jeho císlo): 99<br>
@@ -154,8 +161,11 @@ Seznam úkolu:<br>
 3. Ukol 3 - Popis 3<br>
 
 <br>
+
 ## Testovací scénár<br>
-Test : Nevalidní vstup - odebírám název úkolu, které neexistuje<br>
+Test : Nevalidní vstup - odebírám název úkolu, který neexistuje<br>
+[automatizovaný test](../AutomatickeTesty/OdstranUkolNazev-.au3) <br>
+
 <br>
 ### Popis testu<br>
 Otevrít cmd.exe<br>
@@ -182,6 +192,7 @@ Zadat vstup: xxx<br>
 Vybrat možnost: 2<br>
 <br>
 <br>
+
 ### Ocekávaný výstup:<br>
 Zadejte nazev ukolu, ktery chceš odstranit (mužeš zadat i jeho císlo): xxx<br>
 <br>
