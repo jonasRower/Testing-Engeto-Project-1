@@ -14,6 +14,7 @@ Test : Pridání úkolu s neplatným názvem<br>
 [automatizovaný test](../AutomatickeTesty/pridatUkol-.au3)<br>
 
 <br>
+
 ### Popis testu<br>
 Otevrít cmd.exe<br>
 Spustit program main.py<br>
