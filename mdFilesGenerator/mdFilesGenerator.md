@@ -4,6 +4,7 @@ Program generuje soubory md, tím že doplní odkazy a odřádkuje.<br>
 Jako uživatel se nemusím starat o syntaxi jazyka Markdown<br>
 <br>
 Program je psán v jazyce VBA v MS Excelu.<br>
+<br>
 Na List Funkce se napíše text <br>
 Buňky s oranžovým pozadím označují názvy funkcí = názvy soborů md.<br>
 Barevné písmo vkládá do .md souborů příslušný počet # čímž se nastaví velikost písma.<br>
