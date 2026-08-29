@@ -89,6 +89,7 @@ Zadat vstup: Ukol 1<br>
 Vybrat možnost: 2<br>
 <br>
 <br>
+
 ### Ocekávaný výstup:<br>
 Zadejte nazev ukolu, ktery chceš odstranit (mužeš zadat i jeho císlo): Ukol 1<br>
 Ukol 'Ukol 1' byl odebrán<br>
@@ -112,6 +113,7 @@ Test: Nevalidní vstup - odebírám císlo úkolu, které neexistuje<br>
 [automatizovaný test](../AutomatickeTesty/OdstranUkolCislo-.au3) <br>
 
 <br>
+
 ### Popis testu<br>
 Otevrít cmd.exe<br>
 Spustit program main.py<br>
@@ -167,6 +169,7 @@ Test : Nevalidní vstup - odebírám název úkolu, který neexistuje<br>
 [automatizovaný test](../AutomatickeTesty/OdstranUkolNazev-.au3) <br>
 
 <br>
+
 ### Popis testu<br>
 Otevrít cmd.exe<br>
 Spustit program main.py<br>
