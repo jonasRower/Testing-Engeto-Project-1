@@ -1,36 +1,38 @@
 # zobrazit_ukoly(seznamUkolu)<br>
 ## Popis Funkce<br>
-zobrazí seznam úkolu a jejich popis<br>
+zobrazÃ­ seznam Ãºkolu a jejich popis<br>
 je volana z [vstup_uzivatele_a_vetveni_programu()](./vstup_uzivatele_a_vetveni_programu().md) pokud uzivatel zada volbu 2<br>
 <br>
 <br>
-## Testovací scénár<br>
-Test : Zobrazit seznam úkolu<br>
+## TestovacÃ­ scÃ©nÃ¡r<br>
+Test : Zobrazit seznam Ãºkolu<br>
+[automatizovanÃ½ test](../AutomatickeTesty/ZobrazitUkoly.au3)<br>
+
 <br>
 <br>
 ### Popis testu<br>
-Otevrít cmd.exe<br>
+OtevrÃ­t cmd.exe<br>
 Spustit program main.py<br>
 <br>
 <br>
-Vybrat možnost: 1<br>
-Zadat název úkolu : Ukol 1<br>
-Zadat popis úkolu : Popis 1<br>
+Vybrat moÅ¾nost: 1<br>
+Zadat nÃ¡zev Ãºkolu : Ukol 1<br>
+Zadat popis Ãºkolu : Popis 1<br>
 <br>
-Vybrat možnost: 1<br>
-Zadat název úkolu : Ukol 2<br>
-Zadat popis úkolu : Popis 2<br>
+Vybrat moÅ¾nost: 1<br>
+Zadat nÃ¡zev Ãºkolu : Ukol 2<br>
+Zadat popis Ãºkolu : Popis 2<br>
 <br>
-Vybrat možnost: 1<br>
-Zadat název úkolu : Ukol 3<br>
-Zadat popis úkolu : Popis 3<br>
-<br>
-<br>
-Vybrat možnost: 2<br>
+Vybrat moÅ¾nost: 1<br>
+Zadat nÃ¡zev Ãºkolu : Ukol 3<br>
+Zadat popis Ãºkolu : Popis 3<br>
 <br>
 <br>
-### Ocekávaný výstup:<br>
-Seznam úkolu:<br>
+Vybrat moÅ¾nost: 2<br>
+<br>
+<br>
+### OcekÃ¡vanÃ½ vÃ½stup:<br>
+Seznam Ãºkolu:<br>
 1. Ukol 1 - Popis 1<br>
 2. Ukol 2 - Popis 2<br>
 3. Ukol 3 - Popis 3<br>
