@@ -15,6 +15,7 @@ Test: Konec programu<br>
 [automatizovaný test](../AutomatickeTesty/ukonceniProgramu.au3)<br>
 
 <br>
+
 ### Popis testu<br>
 Otevrít cmd.exe<br>
 Spustit program main.py<br>
