@@ -1,8 +1,10 @@
 # Testing-Engeto-Project-1
 
+<ins> #Task manager </ins>
+
 ## Zadání
 
-<ins> Task manager </ins>
+
 
 
 Program by měl umožnit přidávat, zobrazovat a odstraňovat úkoly. Následující části kódu jsou prázdné funkce, které musíte doplnit. Každá funkce má svůj specifický úkol, který je popsán níže. Úkoly budou ukládány do seznamu ukoly = [].
