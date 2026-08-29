@@ -11,7 +11,7 @@ vrací aktualizovaný seznam nazpet do [vstup_uzivatele_a_vetveni_programu()](./
 <br>
 ## Testovací scénár<br>
 Test : Odebrání úkolu zadaného pomocí jeho císla<br>
-[automatizovaný test](./OdstranUkolCislo.au3)<br>
+[automatizovaný test](../AutomatickeTesty/OdstranUkolCislo.au3)<br>
 
 <br>
 ### Popis testu<br>
