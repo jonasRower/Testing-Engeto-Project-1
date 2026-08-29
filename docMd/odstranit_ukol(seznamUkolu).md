@@ -58,6 +58,8 @@ Seznam úkolu:<br>
 <br>
 ## Testovací scénár<br>
 Test : Odebrání úkolu zadaného pomocí jeho názvu<br>
+[automatizovaný test](../AutomatickeTesty/OdstranUkolCislo.au3) <br>
+
 <br>
 ### Popis testu<br>
 Otevrít cmd.exe<br>
