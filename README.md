@@ -38,5 +38,5 @@ Skutečný výsledek: Funkce pridat_ukol() byla spuštěna a program zobrazil v�
 Stav: Pass
 Poznámky: Tento případ je důležitý, protože ověřuje základní navigaci z hlavního menu a funkčnost jedné z klíčových funkcí programu.
 
-
+## Dokumentace kódu & testů
 [dokumntace kódu je zde](./docMd/hlavni_menu().md)
