@@ -48,6 +48,7 @@ Poznámky: Tento případ je důležitý, protože ověřuje základní navigaci
 ## Automatické testy
 Automatické testy odpovídají testům manuálním. Jsou psané v jazyce AutoIt. Sckript AutoIT (.au3) otevře cmd.exe, spustí program a zadává požadované vstupy. Výstup programu nakopíruje do txt. souboru <br>
 Pokud by testy nešly, je potřeba upravit dobu čekání pomocí funkcí sleep(time), kde time je čas v milisekundách
+[složka s automatickými testy](./AutomatickeTesty)<br>
 <br>
 <br>
 
