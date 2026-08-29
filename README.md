@@ -37,6 +37,8 @@ Očekávaný výsledek: Program spustí funkci pridat_ukol().
 Skutečný výsledek: Funkce pridat_ukol() byla spuštěna a program zobrazil výzvu k zadání nového úkolu
 Stav: Pass
 Poznámky: Tento případ je důležitý, protože ověřuje základní navigaci z hlavního menu a funkčnost jedné z klíčových funkcí programu.
+<br>
+<br>
 
 ### Dokumentace kódu & testů
 [dokumentace kódu a testů](./docMd/hlavni_menu().md) je zde
