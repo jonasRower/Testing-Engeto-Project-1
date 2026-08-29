@@ -1,40 +1,42 @@
 # vstup_uzivatele_validace()<br>
 ## Popis Funkce<br>
 funkce overuje (validuje typ vstupu)<br>
-pokud nenÌ vstup cÌslo, pak vypÌöe:<br>
-"Nezadali jste ciselnou hodnotu mezi 1-4! Zadejte vstup znovu." , pak se vol· metoda sama sebe znovu (rekurzivne)<br>
+pokud nen√≠ vstup c√≠slo, pak vyp√≠≈°e:<br>
+"Nezadali jste ciselnou hodnotu mezi 1-4! Zadejte vstup znovu." , pak se vol√° metoda sama sebe znovu (rekurzivne)<br>
 <br>
-Pokud je funkce sice cÌslo, ale je menöÌ neû 1 a vetöÌ neû 4, pak vypÌöe zpr·vu:<br>
+Pokud je funkce sice c√≠slo, ale je men≈°√≠ ne≈æ 1 a vet≈°√≠ ne≈æ 4, pak vyp√≠≈°e zpr√°vu:<br>
 "Vstup je mimo rozsah 1-4! Zadejte vstup znovu."<br>
 <br>
-Pokud nenÌ ani jedna podmÌnka splnena, pak je funkce ukoncena s n·vratovou hodnotou cÌsla moûnosti, dle nabÌdky v [hlavni_menu()](./hlavni_menu().md)<br>
+Pokud nen√≠ ani jedna podm√≠nka splnena, pak je funkce ukoncena s n√°vratovou hodnotou c√≠sla mo≈ænosti, dle nab√≠dky v [hlavni_menu()](./hlavni_menu().md)<br>
 <br>
-## TestovacÌ scÈn·r<br>
+## Testovac√≠ sc√©n√°r<br>
 Test: Validace vstupu<br>
+[automatizovan√Ω test](../AutomatickeTesty/ukonceniProgramu.au3)<br>
+
 ## <br>
 ### Popis testu<br>
-OtevrÌt cmd.exe<br>
+Otevr√≠t cmd.exe<br>
 Spustit program main.py<br>
 <br>
-Po v˝zve "Vyberte moûnost (1-4) :" vloûit postupne vstupy:<br>
+Po v√Ωzve "Vyberte mo≈ænost (1-4) :" vlo≈æit postupne vstupy:<br>
 <br>
-Vloûit Enter<br>
-Vloûit 123456789 + Enter<br>
-Vloûit ABCDEFGHIJKLMNOPQRSTUVWXYZ + Enter<br>
-Vloûit %?_/*~+-@&;,.][}{ + Enter<br>
+Vlo≈æit Enter<br>
+Vlo≈æit 123456789 + Enter<br>
+Vlo≈æit ABCDEFGHIJKLMNOPQRSTUVWXYZ + Enter<br>
+Vlo≈æit %?_/*~+-@&;,.][}{ + Enter<br>
 <br>
 <br>
-### Ocek·van˝ v˝stup:<br>
-Vyberte moûnost (1-4) :<br>
+### Ocek√°van√Ω v√Ωstup:<br>
+Vyberte mo≈ænost (1-4) :<br>
 <br>
 CHYBA:<br>
 Nezadali jste ciselnou hodnotu mezi 1-4! Zadejte vstup znovu.<br>
-Vyberte moûnost (1-4) : 123456789<br>
+Vyberte mo≈ænost (1-4) : 123456789<br>
 <br>
 CHYBA:<br>
 Vstup je mimo rozsah 1-4! Zadejte vstup znovu.<br>
-Vyberte moûnost (1-4) : ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+Vyberte mo≈ænost (1-4) : ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
 <br>
 CHYBA:<br>
 Nezadali jste ciselnou hodnotu mezi 1-4! Zadejte vstup znovu.<br>
-Vyberte moûnost (1-4) : %?_/*_@&;,.][}{<br>
+Vyberte mo≈ænost (1-4) : %?_/*_@&;,.][}{<br>
