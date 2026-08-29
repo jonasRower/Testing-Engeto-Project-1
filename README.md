@@ -40,3 +40,11 @@ Poznámky: Tento případ je důležitý, protože ověřuje základní navigaci
 
 ## Dokumentace kódu & testů
 [dokumentace kódu a testů](./docMd/hlavni_menu().md) je zde
+
+
+## Automatické testy
+Automatické testy odpovídají testům manuálním. Jsou psané v jazyce AutoIt. Sckript AutoIT (.au3) otevře cmd.exe, spustí program a zadává požadované vstupy. Výstup programu nakopíruje do txt. souboru <br>
+Pokud by testy nešly, je potřeba upravit dobu čekání pomocí funkcí sleep(time), kde time je čas v milisekundách
+
+
+
