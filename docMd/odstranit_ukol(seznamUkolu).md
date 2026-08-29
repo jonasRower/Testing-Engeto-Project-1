@@ -46,6 +46,7 @@ Správce úkolu - Hlavní menu<br>
 2. Zobrazit všechny úkoly<br>
 3. Odstranit úkol<br>
 4. Konec programu<br>
+
 Vyberte možnost (1-4) : 2<br>
 <br>
 Seznam úkolu:<br>
@@ -90,6 +91,7 @@ Správce úkolu - Hlavní menu<br>
 2. Zobrazit všechny úkoly<br>
 3. Odstranit úkol<br>
 4. Konec programu<br>
+
 Vyberte možnost (1-4) : 2<br>
 <br>
 Seznam úkolu:<br>
@@ -139,6 +141,7 @@ Správce úkolu - Hlavní menu<br>
 2. Zobrazit všechny úkoly<br>
 3. Odstranit úkol<br>
 4. Konec programu<br>
+
 Vyberte možnost (1-4) : 2<br>
 <br>
 Seznam úkolu:<br>
@@ -187,6 +190,7 @@ Správce úkolu - Hlavní menu<br>
 2. Zobrazit všechny úkoly<br>
 3. Odstranit úkol<br>
 4. Konec programu<br>
+
 Vyberte možnost (1-4) : 2<br>
 <br>
 Seznam úkolu:<br>
