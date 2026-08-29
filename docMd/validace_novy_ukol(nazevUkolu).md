@@ -1,13 +1,13 @@
 # validace_novy_ukol(nazevUkolu)<br>
 ## Popis Funkce<br>
-Overuje název úkolu.<br>
-Název úkolu musí obsahovat alespon jedno písmeno.<br>
-Overení prítomnosti alespon jednoho písmena se docílí, e<br>
+Overuje nÃ¡zev Ãºkolu.<br>
+NÃ¡zev Ãºkolu musÃ­ obsahovat alespon jedno pÃ­smeno.<br>
+OverenÃ­ prÃ­tomnosti alespon jednoho pÃ­smena se docÃ­lÃ­, Å¾e<br>
 lowerCase =! upperCase<br>
 <br>
 <br>
-funkce vrací status typu boolean do [pridatUkol(seznamUkolu)](./pridatUkol(seznamUkolu).md)<br>
+funkce vracÃ­ status typu boolean do [pridatUkol(seznamUkolu)](./pridatUkol(seznamUkolu).md)<br>
 <br>
 <br>
-## Testovací scénár<br>
-napis hlasku<br>
+## TestovacÃ­ scÃ©nÃ¡r<br>
+(./napis_hlasku_pokud_je_validace_neplatna(nazevUkolu).md)
