@@ -11,7 +11,7 @@ Pokud není ani jedna podmínka splnena, pak je funkce ukoncena s návratovou ho
 <br>
 ## Testovací scénár<br>
 Test: Validace vstupu<br>
-[automatizovaný test](../AutomatickeTesty/ukonceniProgramu.au3)<br>
+[automatizovaný test](../AutomatickeTesty/neplatneVstupy.au3)<br>
 
 ## <br>
 ### Popis testu<br>
