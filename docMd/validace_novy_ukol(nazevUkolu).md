@@ -10,4 +10,4 @@ funkce vrací status typu boolean do [pridatUkol(seznamUkolu)](./pridatUkol(sezn
 <br>
 <br>
 ## Testovací scénár<br>
-(./napis_hlasku_pokud_je_validace_neplatna(nazevUkolu).md)
+[napis_hlasku_pokud_je_validace_neplatna(nazevUkolu)](./napis_hlasku_pokud_je_validace_neplatna(nazevUkolu).md)
