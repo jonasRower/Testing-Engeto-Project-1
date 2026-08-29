@@ -10,6 +10,7 @@ Test : Zobrazit seznam úkolu<br>
 
 <br>
 <br>
+
 ### Popis testu<br>
 Otevrít cmd.exe<br>
 Spustit program main.py<br>
@@ -31,6 +32,7 @@ Zadat popis úkolu : Popis 3<br>
 Vybrat možnost: 2<br>
 <br>
 <br>
+
 ### Ocekávaný výstup:<br>
 Seznam úkolu:<br>
 1. Ukol 1 - Popis 1<br>
