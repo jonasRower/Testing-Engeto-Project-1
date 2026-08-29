@@ -12,7 +12,7 @@ Vstupy jsou zpracované metodou [vstup_uzivatele_a_vetveni_programu()](./vstup_u
 <br>
 ## Testovací scénár<br>
 Test: Konec programu<br>
-pridatUkol-
+[automatizovaný test](../AutomatickeTesty/ukonceniProgramu.au3)<br>
 
 <br>
 ### Popis testu<br>
