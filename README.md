@@ -53,5 +53,5 @@ Pokud by testy nešly, je potřeba upravit dobu čekání pomocí funkcí sleep(
 
 ## mdFilesGenerator
 Program který generuje jednotlivé .md-soubory. Jako uživatel se nemusím starat o syntaxi souborů md. Kód automaticky vytvoří odkazy. Program je psán v jazyce VBA.<br>
-[podrobněji zde](./mdFilesGenerator/mdFilesGenerator.md) je zde
+[podrobněji zde](./mdFilesGenerator/mdFilesGenerator.md)
 
