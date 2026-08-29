@@ -1,4 +1,5 @@
 ## validace_novy_ukol(nazevUkolu)<br>
+## Popis Funkce<br>
 Overuje název úkolu.<br>
 Název úkolu musí obsahovat alespon jedno písmeno.<br>
 Overení prítomnosti alespon jednoho písmena se docílí, že<br>

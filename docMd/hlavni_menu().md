@@ -1,6 +1,7 @@
 ## hlavni_menu()<br>
-Zobrazí možnosti v programu:<br>
-1. Nový úkol<br>
+# Popis Funkce<br>
+## Zobrazí možnosti v programu:<br>
+### 1. Nový úkol<br>
 2. Zobrazit všechny úkoly<br>
 3. Odstranit úkol<br>
 4. Konec programu<br>

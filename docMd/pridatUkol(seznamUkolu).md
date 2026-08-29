@@ -1,4 +1,5 @@
 ## pridatUkol(seznamUkolu)<br>
+## Popis Funkce<br>
 zeptá se na název úkolu<br>
 overuje název úkolu, zda obsahuje platné znaky - pomocí metody<br>
 validaceNazevUkolu = [validace_novy_ukol(nazevUkolu)](./validace_novy_ukol(nazevUkolu).md)<br>
