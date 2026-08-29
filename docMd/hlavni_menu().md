@@ -1,32 +1,34 @@
 # hlavni_menu()<br>
 ## Popis Funkce<br>
-Zobrazí monosti v programu:<br>
-1. Novı úkol<br>
-2. Zobrazit všechny úkoly<br>
-3. Odstranit úkol<br>
+ZobrazÃ­ moÅ¾nosti v programu:<br>
+1. NovÃ½ Ãºkol<br>
+2. Zobrazit vÅ¡echny Ãºkoly<br>
+3. Odstranit Ãºkol<br>
 4. Konec programu<br>
 
-Funkce je volána z tela programu, nemá ádnou nadrazenou funkci<br>
-Vstupy jsou zpracované metodou [vstup_uzivatele_a_vetveni_programu()](./vstup_uzivatele_a_vetveni_programu().md)<br>
+Funkce je volÃ¡na z tela programu, nemÃ¡ Å¾Ã¡dnou nadrazenou funkci<br>
+Vstupy jsou zpracovanÃ© metodou [vstup_uzivatele_a_vetveni_programu()](./vstup_uzivatele_a_vetveni_programu().md)<br>
 <br>
 <br>
-## Testovací scénár<br>
+## TestovacÃ­ scÃ©nÃ¡r<br>
 Test: Konec programu<br>
+pridatUkol-
+
 <br>
 ### Popis testu<br>
-Otevrít cmd.exe<br>
+OtevrÃ­t cmd.exe<br>
 Spustit program main.py<br>
 <br>
-Po vızve "Vyberte monost (1-4) :" vloit postupne vstupy:<br>
+Po vÃ½zve "Vyberte moÅ¾nost (1-4) :" vloÅ¾it postupne vstupy:<br>
 <br>
-Vloit "4" + Enter<br>
+VloÅ¾it "4" + Enter<br>
 <br>
 <br>
-### Ocekávanı vıstup:<br>
-Správce úkolu - Hlavní menu<br>
-1. Pridat novı úkol<br>
-2. Zobrazit všechny úkoly<br>
-3. Odstranit úkol<br>
+### OcekÃ¡vanÃ½ vÃ½stup:<br>
+SprÃ¡vce Ãºkolu - HlavnÃ­ menu<br>
+1. Pridat novÃ½ Ãºkol<br>
+2. Zobrazit vÅ¡echny Ãºkoly<br>
+3. Odstranit Ãºkol<br>
 4. Konec programu<br>
-Vyberte monost (1-4) : 4<br>
+Vyberte moÅ¾nost (1-4) : 4<br>
 KONEC PROGRAMU<br>
